@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Hoekstra-Klussen
+ Theme URI:    http://patelle.nl/twenty-fifteen-child/
+ Description:  Hoekstra-klussen site
+ Author:       Teake Jellema	
+ Author URI:   http://patelle.nl.com
+ Template:     twentyfifteen
+ Version:      2.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         dark, bootstrap, 1 to 12 colomns
+ Text Domain:  twenty-fifteen-child
+*/
+
+body {
+	font-family: lato , san-serif;
+}
