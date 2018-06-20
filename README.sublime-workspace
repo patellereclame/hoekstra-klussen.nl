@@ -200,6 +200,9 @@
 	},
 	"file_history":
 	[
+		"/Users/teakejellema/Web/hoekstra-klussen.nl/wp-content/themes/hoekstra-klussen/js/bootstrap.min.js",
+		"/Users/teakejellema/Web/hoekstra-klussen.nl/wp-content/themes/hoekstra-klussen/css/bootstrap.min.css",
+		"/Users/teakejellema/Web/hoekstra-klussen.nl/wp-content/themes/function.php",
 		"/Users/teakejellema/Documents/hestia-clients-bar-section.php",
 		"/private/var/folders/1w/lxf2d6rd3l716v7wydv5tdvc0000gn/T/fz3temp-2/simple-event-planner-public.css",
 		"/private/var/folders/1w/lxf2d6rd3l716v7wydv5tdvc0000gn/T/fz3temp-2/content-single-event-listing.php",
@@ -323,7 +326,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
