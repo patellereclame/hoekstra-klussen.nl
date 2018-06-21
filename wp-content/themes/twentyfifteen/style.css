@@ -2916,6 +2916,11 @@ p > video {
 		line-height: 1.6471;
 	}
 
+#bs-example-navbar-collapse-1{
+	  position: relative;
+
+}
+
 	button,
 	input {
 		line-height: normal;

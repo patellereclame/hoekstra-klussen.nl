@@ -425,3 +425,16 @@ require get_template_directory() . '/inc/template-tags.php';
  * @since Twenty Fifteen 1.0
  */
 require get_template_directory() . '/inc/customizer.php';
+
+
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+
+function wpbasics_theme_setup() {
+
+register_nav_menus( array(
+	'primary' => __( 'Primary Menu')
+) );
+
+}
+
+add_action('after_setup_theme', 'wpbasics_theme_setup');

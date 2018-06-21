@@ -13,7 +13,7 @@
 
  			<!--loop begins here -->
  <?php
-	
+
 		while ( have_posts() ) : the_post();
 
 			// Include the page content template.
@@ -24,12 +24,12 @@
 				comments_template();
 			endif;
 
-		
+
 		endwhile;
 ?>
 
 
-			
+
  				</div>
  			</div>
  		</div>
@@ -39,11 +39,31 @@
  <div class="container">
  	<div class="row">
  		<div class="content">
+<ul>
 
+
+      <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
+
+      <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+
+<div class="display-blog col-md-4">
+      <a class="post-link" href="<?php the_permalink() ?>"><div class="box-overlay">
+      <div class="post-display"><?php echo get_the_post_thumbnail( $post_id, 'large', array( 'class' => 'thumbnail' ) );?></div>
+      <div class="title-overlay"><h2><?php the_title(); ?><h2></div>
+
+      </div></a>
+</div>
+
+
+      <?php
+      endwhile;
+      wp_reset_postdata();
+      ?>
+
+      </ul>
  		</div>
  	</div>
  </div>
 
 
 <?php get_footer(); ?>
- 
