@@ -35,11 +35,11 @@
  		</div>
  </div>
 
-
+<div class="top-layer">
  <div class="container">
  	<div class="row">
  		<div class="content">
-<ul>
+
 
 
       <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
@@ -60,10 +60,10 @@
       wp_reset_postdata();
       ?>
 
-      </ul>
  		</div>
  	</div>
  </div>
+</div>
 
 
 <?php get_footer(); ?>
