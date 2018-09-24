@@ -22,6 +22,22 @@
 				 */
 				do_action( 'twentyfifteen_credits' );
 			?>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h3 class="yellow">Snel menu</h3>
+					<?php wp_nav_menu( array( 'theme_location' => 'new-menu', 'container_class' => 'new_menu_class' ) ); ?>
+				</div>
+			</div>
+		</div>
+<div class="rights">
+	<p class="copyright">
+		All rights are served to hoekstra-klussen.nl
+		<br>
+		Desigend by <a href="https://Patelle.nl" target="_blank">Patelle Reclame</a>
+	</p>
+
+</div>
 
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
@@ -30,5 +46,25 @@
 
 <?php wp_footer(); ?>
 
+
+
+
+
+</div>
+</div>
 </body>
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
 </html>

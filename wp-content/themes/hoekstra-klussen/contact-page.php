@@ -31,9 +31,9 @@ get_header() ?>
   <div class="row">
     <div class="contact-push col-xs-6 col-md-6">
       <h3>Contact gegevens</h3>
-      <li>Naam:Jeffrey Hoekstra</li>
-      <li>E-mail:<a href="mailto:hoekstraklusbedrijf@hotmail.com">hoekstraklusbedrijf@hotmail.com</a></li>
-      <li>Tel: +(31)6 36455436</li>
+      <li>Naam: Jeffrey Hoekstra</li>
+      <li>E-mail: <a href="mailto:hoekstraklusbedrijf@hotmail.com">hoekstraklusbedrijf@hotmail.com</a></li>
+      <li>Tel: +(31)6 29548164</li>
       <br>
       <h3>Adres</h3>
       <li>Adres: Hooizolder 343</li>

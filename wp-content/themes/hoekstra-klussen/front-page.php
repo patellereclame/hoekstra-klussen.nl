@@ -1,10 +1,10 @@
 <?php /* Template Name: Front-page */ ?>
 
-<?php
+<body onload="myFunction()" style="margin:0;">
+	 <div id="loader"></div>
+	  <div style="display:none;" id="myDiv" class="animate-bottom">
 
- get_header();
-
- ?>
+<?php get_header(); ?>
 
  <div class="container-images">
  		<div class="container">
@@ -40,14 +40,16 @@
  	<div class="row">
  		<div class="content">
 
-
+<h2 class="align-center">Recente projecten</h2>
+<p class="align-center">
+  Voor meer projecten kun je terecht onder projecten</p>
 
       <?php $the_query = new WP_Query( 'posts_per_page=3' ); ?>
 
       <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
 
 <div class="display-blog col-md-4">
-      <a class="post-link" href="<?php the_permalink() ?>"><div class="box-overlay">
+      <a class="post-link" href="<?php echo get_permalink( get_option( 'content' ) ); ?>"><div class="box-overlay">
       <div class="post-display"><?php echo get_the_post_thumbnail( $post_id, 'large', array( 'class' => 'thumbnail' ) );?></div>
       <div class="title-overlay"><h2><?php the_title(); ?><h2></div>
 
@@ -64,6 +66,24 @@
  	</div>
  </div>
 </div>
+
+
+
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="contact-layer">
+        <p class="contact-tekst">
+          Heb je nog vragen? Neem gerust contact met ons op!
+        </p>
+
+        <div class="btn-contact"><a href="#">Contact</a></div>
+
+
+      </div>
+    </div>
+  </div>
+
 
 
 <?php get_footer(); ?>
