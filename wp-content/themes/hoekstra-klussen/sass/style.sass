@@ -223,11 +223,18 @@ img.sing
   position: relative
   vertical-align: bottom
 
+
+button.navbar-toggler
+  float: left
+  margin-left: auto
+  position: relative
+  bottom: 59px
+
   //hexagon
 
 .gray-stroke
   width: 100%
-  height: 150px
+  height: auto
   background: $graybg
   border-top: 4px solid $orange
   padding-top: $pdt
@@ -240,6 +247,7 @@ img.sing
   margin: 0 auto
   position: relative
   width: 100%
+  padding-bottom: 30px
 
 img.icon
 
@@ -253,7 +261,7 @@ img.icon
 
 .contact-layer
   width: 100%
-  height: 120px
+  height: auto
   border-top: 3px solid $orange
 
 p.contact-tekst
@@ -267,6 +275,7 @@ p.contact-tekst
   text-align: center
   position: relative
   margin-top: 20px
+  margin-bottom: 20px
 
 .btn-contact a
   background-color: $orange
@@ -274,6 +283,9 @@ p.contact-tekst
   border-radius: 2px
   font-size: 20px
   color: #fff
+
+.container-fullwidth
+  width: 100%
 
 
   //contact-page
@@ -344,3 +356,12 @@ footer
     text-align: center
     padding-bottom: 0
     margin: 0
+
+@media only screen and (max-width: 767px)
+  img.sing
+    position: relative
+    top: 31px
+    margin: auto
+
+  #bs-example-navbar-collapse-1
+    position: relative

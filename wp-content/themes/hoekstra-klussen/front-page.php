@@ -69,9 +69,10 @@
 
 
 
+<div class="container-fullwidth">
 
-  <div class="row">
-    <div class="col-md-12">
+		<div class="content">
+
       <div class="contact-layer">
         <p class="contact-tekst">
           Heb je nog vragen? Neem gerust contact met ons op!
@@ -82,7 +83,9 @@
 
       </div>
     </div>
-  </div>
+
+
+</div>
 
 
 
